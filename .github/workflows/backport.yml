@@ -16,6 +16,6 @@
           run: |
             backport-assistant backport -automerge
           env:
-            BACKPORT_LABEL_REGEXP: "(?P<target>website)"
+            BACKPORT_LABEL_REGEXP: "(?P<target>website)/cherrypick"
             BACKPORT_TARGET_TEMPLATE: "stable-{{.target}}"
             GITHUB_TOKEN: ${{ secrets.ELEVATED_GITHUB_TOKEN }}
