@@ -1,4 +1,3 @@
-test backport
 ![Image](website/public/img/logo-fullcolor-rgb.png)
 
 ----------------------------------------
@@ -24,13 +23,13 @@ and more can be easily added via plugins:
 * And many more...
 
 Waypoint runs on Linux, Mac OS X, and Windows and magical, MERGE CONFLICT shimmering rainbows.
-test backport
+
 **Please note**: We take Waypoint's security and our users' trust very seriously. If you
 believe you have found a security issue in Waypoint, please [responsibly disclose](https://www.hashicorp.com/security#vulnerability-reporting) by
 contacting us at security@hashicorp.com.
 
 ## Quick Start
-test backport
+
 A few quick start guides are available on the [Waypoint website](https://www.waypointproject.io/docs/getting-started)
 and on [HashiCorp Learn](https://learn.hashicorp.com/waypoint):
 
