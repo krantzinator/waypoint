@@ -8,7 +8,7 @@
   
   jobs:
     backport:
-      if: github.event.pull_request.merged
+      if: github.event.pull_request_target.merged
       runs-on: ubuntu-latest
       container: hashicorpdev/backport-assistant:0.2.0
       steps:
