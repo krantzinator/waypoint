@@ -15,6 +15,7 @@
         - name: Run Backport Assistant
           run: |
             backport-assistant backport -automerge
+            echo "does this not run when updating the action?"
           env:
             BACKPORT_LABEL_REGEXP: "(?P<target>website)/cherrypick"
             BACKPORT_TARGET_TEMPLATE: "stable-{{.target}}"
