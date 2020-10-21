@@ -11,7 +11,7 @@ set up HERE IT IS merge conflict
 * Tutorials: [HashiCorp Learn](https://learn.hashicorp.com/waypoint)
 * Forum: [Discuss](https://discuss.hashicorp.com/c/waypoint)
 
-Waypoint allows developers to define their application build, deploy, and release lifecycle as code, reducing the time to deliver deployments through a consistent and repeatable workflow.
+Waypoint allows developers to define their application build, deploy, and release lifecycle as code, reducing the time to deliver deployments through a consistent and repeatable workflow.asdf
 
 Waypoint supports a number of build methods and target platforms out of the box
 and more can be easily added via plugins:
