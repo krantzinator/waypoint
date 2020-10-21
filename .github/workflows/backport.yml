@@ -2,7 +2,7 @@
   name: Backport Assistant Runner
   
   on:
-    pull_request_target:
+    pull_request:
       types:
         - closed
   
@@ -15,7 +15,6 @@
         - name: Run Backport Assistant
           run: |
             backport-assistant backport -automerge
-            echo "does this not run when updating the action?"
           env:
             BACKPORT_LABEL_REGEXP: "(?P<target>website)/cherrypick"
             BACKPORT_TARGET_TEMPLATE: "stable-{{.target}}"
