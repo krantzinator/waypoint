@@ -4,6 +4,7 @@
 
 # Waypoint
 backport
+set up merge conflict
 
 * Website: https://www.waypointproject.io
 * Tutorials: [HashiCorp Learn](https://learn.hashicorp.com/waypoint)
